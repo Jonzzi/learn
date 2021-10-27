@@ -1,0 +1,300 @@
+/*Стили HEADER*/
+.site-header {
+  position: relative;
+  width: 1440px;
+  height: 70px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  /*Границы
+  border-color:rgba(31, 32, 65, 0.25);
+  border-style: solid;
+  border-width: 1px;*/
+}
+
+.toxin-logo__circle {
+  position: absolute;               
+  left: 140px;
+  top: 15px;  
+  /*border-color: red;
+  border-style: dotted;
+  border-width: 1px;*/
+  width: 40px;
+  height: 40px;
+}
+
+.toxin-logo__left {
+  position: absolute;               
+  top: 30px; 
+  left: 150px;
+}
+
+.toxin-logo__right {
+  position: absolute;               
+  top: 30px; 
+  left: 162px;
+}
+
+.toxin-logo-text {
+  position: absolute;               
+  top: 28px; 
+  left: 192.5px;
+}
+
+.header-menu {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 17px;
+  font-weight: normal;
+  color: rgba(31, 32, 65, 0.5);
+  position: absolute;   
+  top: 26px;
+}
+
+/*Далее идут элементы меню*/
+.menu__about {        
+  left: 530px;
+}
+
+.menu__services {
+  left: 593px;
+}
+
+.select-style { /*Не смог сделать галочку нужного размера и ее центрирование*/
+  border: none;
+  color:rgba(31, 32, 65, 0.5);
+  font-size: 24px;
+  font-style: normal;
+  line-height: 20px;
+  font-weight: normal;
+  width: 24px;
+  height: 21px;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  position: absolute;   
+  top: 26px;
+  display: flex;   
+}
+
+.select__services {
+  left: 643px;
+}
+
+.select__accept {
+  left: 953px;
+}
+
+.menu__vacancy {
+  left: 687px;
+}
+
+.menu__news {
+  left: 779px;
+}
+
+.menu__accept {
+  left: 861px;
+}
+
+/*Тот элемент меню, который сейчас в фокусе*/
+.menu-focus {
+  font-weight: bold;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+/*.menu__enter {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 15px;
+  color:#BC9CFF;
+  left: 1017px;
+  height: 34px;
+  width: 87px;
+  border-color: #BC9CFF;
+  border-radius: 22px;
+  border-width: 2px;
+  border-style: solid;
+  vertical-align: middle;
+  text-align: center;
+}*/
+
+/*Это градиентная граница для кнопки ВОЙТИ - не смог ее сделать через свойства объекта*/
+.enter-border {
+  position: absolute;               
+  top: 18px; 
+  left: 997px; 
+  width: 87px;
+  height: 34px;
+}
+
+.enter-button {
+  width: 78px;
+  height: 28px;
+  top: 21px; 
+  left: 1000px;
+  border-radius: 20px;
+  color: #BC9CFF;
+  font-size: 12px;
+  line-height: 14.63px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  /*background-color: #BC9CFF;*/
+  /*border: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-image-source: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-style: solid;*/
+  background: none;
+  border-width: 0px;
+  cursor: pointer;
+  background: #FFFFFF;;
+}
+
+.registration-button {
+  width: 196px;
+  height: 34px;
+  top: 18px; 
+  left: 1104px;
+  border-radius: 22px;
+  color: white;
+  font-size: 12px;
+  line-height: 14.63px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  /*background-color: #BC9CFF;*/
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+}
+
+/*Стили MAIN*/
+.start-page {
+  background-image: url(img/start_page.png);
+  width: 1440px;
+  height: 900px;
+  /*Границы
+  border-color:rgba(31, 32, 65, 0.25);
+  border-style: solid;
+  border-width: 1px;*/
+}
+/*Текст на картинке*/
+.start-page__text {
+  position: absolute;
+  width: 297px;
+  height: 48px;
+  left: 1056px;
+  bottom: 18px;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: normal;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.bottom-menu {
+  background-image: url(img/start_page.png);
+  width: 1440px;
+  height: 372px;
+  background: #FFFFFF;
+  box-shadow: 0px 10 px 20 px rgba(31, 32, 65, 0.05);
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 17px;
+  font-weight: normal;
+  color: rgba(31, 32, 65, 0.5);
+  box-shadow: 0px 1 px 0 px rgba(31, 32, 65, 0.1);
+  /*Границы
+  border-color:rgba(31, 32, 65, 0.25);
+  border-style: solid;
+  border-width: 1px;*/
+}
+
+.bottom-menu__text {
+  position: absolute;
+  width: 260px;
+  height: 72px;
+  left: 140px;
+  bottom: 140px;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: normal;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.site-navigation {
+  position: absolute;
+  width: 150px;
+  height: 180px;
+  left: 440px;
+  top: 104px;
+  text-align: left;
+  vertical-align: text-top;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 40px;
+  font-weight: normal;
+  color: rgba(31, 32, 65, 0.5);
+}
+
+/*Стили FOOTER*/
+.site-footer {
+  width: 1440px;
+  height: 70px;
+  left: 0px;
+  bottom: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 17px;
+  font-weight: normal;
+  color: rgba(31, 32, 65, 0.75);
+  /*Та самая линия над футером*/
+  border-top-color: rgba(31, 32, 65, 0.25);
+  border-left-color:transparent;
+  border-right-color:transparent;
+  border-bottom-color:transparent;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.twit {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  bottom: 23px;
+  left: 1188px;
+  cursor: pointer;
+}
+
+.fb {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  bottom: 23px;
+  left: 1232px;
+  cursor: pointer;
+}
+
+.insta {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  bottom: 23px;
+  left: 1276px;
+  cursor: pointer;
+}
